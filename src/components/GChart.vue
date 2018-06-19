@@ -55,6 +55,10 @@ export default {
       handler () {
         this.drawChart()
       }
+    },
+    type () {
+      this.createChartObject()
+      this.drawChart()
     }
   },
 
